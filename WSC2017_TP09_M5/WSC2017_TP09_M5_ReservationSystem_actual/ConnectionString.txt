@@ -1,0 +1,1 @@
+Data Source=(localdb)\MSSQLLOCALDB;Initial Catalog=Session5Test;Persist Security Info=true;trusted_connection=true;app=SetupSession5
