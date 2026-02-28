@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<?xaml-comp compile="true" ?>
+<ResourceDictionary 
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <Style x:Key="ButtonBlue" TargetType="Button">
+        <Setter Property="BackgroundColor" Value="{StaticResource PrimaryBlue}"/>
+        <Setter Property="TextColor" Value="#FFFFFF"/>
+    </Style>
+    
+    <Style x:Key="ButtonOrange" TargetType="Button">
+        <Setter Property="BackgroundColor" Value="{StaticResource PrimaryOrange}"/>
+    </Style>
+
+    <Style TargetType="Label">
+        <Setter Property="FontFamily" Value="Tex"/>
+    </Style>
+
+    <Style TargetType="Entry">
+        <Setter Property="FontFamily" Value="Tex"/>
+    </Style>
+
+    <Style TargetType="Button">
+        <Setter Property="FontFamily" Value="Tex"/>
+        <Setter Property="BackgroundColor" Value="{StaticResource PrimaryOrange}"/>
+    </Style>
+
+    <Style TargetType="Picker">
+        <Setter Property="FontFamily" Value="Tex"/>
+    </Style>
+
+</ResourceDictionary>

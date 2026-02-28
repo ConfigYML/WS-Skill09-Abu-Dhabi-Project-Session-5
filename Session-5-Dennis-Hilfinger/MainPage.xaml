@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Session_5_Dennis_Hilfinger.MainPage"
+             Title="Purchase Amenities">
+    <ContentPage.Resources>
+        <Style x:Key="HeadingStyle" TargetType="Label">
+            <Setter Property="FontSize" Value="24"/>
+            <Setter Property="FontFamily" Value="TexBold"/>
+        </Style>
+    </ContentPage.Resources>
+    <ScrollView>
+        <VerticalStackLayout 
+            WidthRequest="800"
+            HorizontalOptions="Center"
+            Spacing="20">
+
+            <HorizontalStackLayout
+                HorizontalOptions="Fill"
+                Spacing="10">
+                <Label 
+                    Text="Booking Reference:"/>
+                <Entry
+                    x:Name="BookingRefInput"
+                    WidthRequest="200"/>
+                <Button
+                    Clicked="SearchForFlights"
+                    WidthRequest="150"
+                    Text="Search"/>
+            </HorizontalStackLayout>
+
+
+
+            <Label
+                Text="Flight selection"
+                Style="{StaticResource HeadingStyle}"/>
+            <HorizontalStackLayout
+                HorizontalOptions="Fill"
+                Spacing="10">
+                <Label 
+                    Text="Choose your flight(s):"/>
+                <Picker
+                    x:Name="FlightPicker"
+                    WidthRequest="200"/>
+                <Button
+                    Clicked="LoadAmenities"
+                    WidthRequest="150"
+                    Text="Show amenities"/>
+            </HorizontalStackLayout>
+
+
+
+            <HorizontalStackLayout
+                HorizontalOptions="Start"
+                Spacing="10">
+                <Label
+                    Text="Full name:"/>
+                <Label
+                    x:Name="FullnameLabel"/>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout
+                HorizontalOptions="Start"
+                Spacing="10">
+                <Label
+                    Text="Passport number:"/>
+                <Label
+                    x:Name="PassportNumberLabel"/>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout
+                HorizontalOptions="Start"
+                Spacing="10">
+                <Label
+                    Text="Cabin class:"/>
+                <Label
+                    x:Name="CabinTypeLabel"/>
+            </HorizontalStackLayout>
+
+
+
+
+            <Label
+                Text="Select amenities"
+                Style="{StaticResource HeadingStyle}"/>
+            <ScrollView 
+                Orientation="Horizontal"
+                HeightRequest="100">
+                <Grid
+                    x:Name="AmenitiesGrid"
+                    RowDefinitions="*, *, *, *"/>
+            </ScrollView>
+
+            <Grid
+                ColumnDefinitions="*, *, 2*, 2*"
+                RowDefinitions="*, *, *"
+                RowSpacing="10">
+                <Label
+                    Text="Items selected:"
+                    Grid.Row="0"
+                    Grid.Column="0"/>
+                <Label
+                    Text="Duties and taxes:"
+                    Grid.Row="1"
+                    Grid.Column="0"/>
+                <Label
+                    Text="Total amount:"
+                    Grid.Row="2"
+                    Grid.Column="0"/>
+
+                <Label
+                    x:Name="SelectedAmountLabel"
+                    Text="$ 0.00"
+                    Grid.Row="0"
+                    Grid.Column="1"/>
+                <Label
+                    x:Name="TaxAmountLabel"
+                    Text="$ 0.00"
+                    Grid.Row="1"
+                    Grid.Column="1"/>
+                <Label
+                    x:Name="TotalAmountLabel"
+                    Text="$ 0.00"
+                    Grid.Row="2"
+                    Grid.Column="1"/>
+
+                <Button
+                    Clicked="Save"
+                    Text="Save and confirm"
+                    WidthRequest="150"
+                    Grid.Row="1"
+                    Grid.Column="3"
+                    VerticalOptions="Center"/>
+                <Button
+                    Clicked="Exit"
+                    Text="Exit"
+                    WidthRequest="150"
+                    Grid.Row="2"
+                    Grid.Column="3"
+                    VerticalOptions="Center"/>
+            </Grid>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
