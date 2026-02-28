@@ -54,7 +54,8 @@
                 HorizontalOptions="Start"
                 Spacing="10">
                 <Label
-                    Text="Full name:"/>
+                    Text="Full name:"
+                    FontFamily="TexBold"/>
                 <Label
                     x:Name="FullnameLabel"/>
             </HorizontalStackLayout>
@@ -63,7 +64,8 @@
                 HorizontalOptions="Start"
                 Spacing="10">
                 <Label
-                    Text="Passport number:"/>
+                    Text="Passport number:"
+                    FontFamily="TexBold"/>
                 <Label
                     x:Name="PassportNumberLabel"/>
             </HorizontalStackLayout>
@@ -72,7 +74,8 @@
                 HorizontalOptions="Start"
                 Spacing="10">
                 <Label
-                    Text="Cabin class:"/>
+                    Text="Cabin class:"
+                    FontFamily="TexBold"/>
                 <Label
                     x:Name="CabinTypeLabel"/>
             </HorizontalStackLayout>
@@ -98,15 +101,18 @@
                 <Label
                     Text="Items selected:"
                     Grid.Row="0"
-                    Grid.Column="0"/>
+                    Grid.Column="0"
+                    FontFamily="TexBold"/>
                 <Label
                     Text="Duties and taxes:"
                     Grid.Row="1"
-                    Grid.Column="0"/>
+                    Grid.Column="0"
+                    FontFamily="TexBold"/>
                 <Label
                     Text="Total amount:"
                     Grid.Row="2"
-                    Grid.Column="0"/>
+                    Grid.Column="0"
+                    FontFamily="TexBold"/>
 
                 <Label
                     x:Name="SelectedAmountLabel"

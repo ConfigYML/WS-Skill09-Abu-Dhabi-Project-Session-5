@@ -7,14 +7,17 @@
       "RelativeMoniker": "D:0:0:{5CE304EF-AFDC-465C-8FC1-1483B46A778F}|Session-5-Dennis-Hilfinger.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Session5/True/SqlTable/dbo.Tickets.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Session5/True/SqlTable/dbo.Amenities.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Session5/True/SqlTable/dbo.AmenitiesTickets.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5CE304EF-AFDC-465C-8FC1-1483B46A778F}|Session-5-Dennis-Hilfinger.csproj|c:\\2_worldskills\\training\\abudhabi_2017\\ws-skill09-abu-dhabi-project-session-5\\session-5-dennis-hilfinger\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{5CE304EF-AFDC-465C-8FC1-1483B46A778F}|Session-5-Dennis-Hilfinger.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Session5/True/SqlTable/dbo.Tickets.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,7 +27,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -32,33 +35,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "dbo.Amenities [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Session5/True/SqlTable/dbo.Amenities.sql",
-              "ToolTip": "dbo.Amenities [Data]",
+              "DocumentIndex": 3,
+              "Title": "dbo.AmenitiesTickets [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Session5/True/SqlTable/dbo.AmenitiesTickets.sql",
+              "ToolTip": "dbo.AmenitiesTickets [Data]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2026-02-28T17:31:52.577Z",
+              "WhenOpened": "2026-02-28T19:12:11.129Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "dbo.Tickets [Data]",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Session5/True/SqlTable/dbo.Tickets.sql",
               "ToolTip": "dbo.Tickets [Data]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2026-02-28T17:17:52.029Z",
+              "WhenOpened": "2026-02-28T18:25:09.379Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "dbo.Amenities [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Session5/True/SqlTable/dbo.Amenities.sql",
+              "ToolTip": "dbo.Amenities [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-02-28T18:25:00.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "C:\\2_WorldSkills\\Training\\AbuDhabi_2017\\WS-Skill09-Abu-Dhabi-Project-Session-5\\Session-5-Dennis-Hilfinger\\MainPage.xaml",
               "RelativeDocumentMoniker": "MainPage.xaml",
               "ToolTip": "C:\\2_WorldSkills\\Training\\AbuDhabi_2017\\WS-Skill09-Abu-Dhabi-Project-Session-5\\Session-5-Dennis-Hilfinger\\MainPage.xaml",
               "RelativeToolTip": "MainPage.xaml",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAAAFsAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADwAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-02-28T16:50:49.207Z",
               "EditorCaption": ""
@@ -71,7 +84,7 @@
               "RelativeDocumentMoniker": "MainPage.xaml.cs",
               "ToolTip": "C:\\2_WorldSkills\\Training\\AbuDhabi_2017\\WS-Skill09-Abu-Dhabi-Project-Session-5\\Session-5-Dennis-Hilfinger\\MainPage.xaml.cs",
               "RelativeToolTip": "MainPage.xaml.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAwwEwAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAL4AAAAAAAAAAAA0wNgAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-28T16:49:38.952Z",
               "EditorCaption": ""
