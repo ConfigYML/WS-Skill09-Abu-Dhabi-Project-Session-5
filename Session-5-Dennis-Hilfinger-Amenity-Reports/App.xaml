@@ -1,0 +1,38 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<Application xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Session_5_Dennis_Hilfinger"
+             x:Class="Session_5_Dennis_Hilfinger.App">
+    <Application.Resources>
+        <ResourceDictionary>
+
+            <ControlTemplate x:Key="BasicTemplate">
+                <Grid
+                    ColumnDefinitions="*, 5*, *"
+                    Grid.RowDefinitions="Auto, *, Auto">
+                    <Image Source="wsc2017_tp09_color.png"
+                           Margin="50, 50, 0, 0"
+                           HeightRequest="50"/>
+                    <Label Text="{TemplateBinding Title}"
+                           FontSize="50"
+                           Grid.Column="1"
+                           VerticalOptions="Center" 
+                           HorizontalOptions="Center"/>
+                    <ContentPresenter 
+                        Grid.Row="1"
+                        Grid.Column="1"/>
+                </Grid>
+            </ControlTemplate>
+
+            <Style TargetType="ContentPage" ApplyToDerivedTypes="True">
+                <Setter Property="ControlTemplate" Value="{StaticResource BasicTemplate}"/>
+                <Setter Property="Shell.NavBarIsVisible" Value="False"/>
+            </Style>
+
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Resources/Styles/Colors.xaml" />
+                <ResourceDictionary Source="Resources/Styles/Styles.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

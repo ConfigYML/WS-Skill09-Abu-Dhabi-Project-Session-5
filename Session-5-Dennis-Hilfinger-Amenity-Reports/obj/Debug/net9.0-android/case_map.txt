@@ -1,0 +1,5 @@
+images\dotnet_bot;images\dotnet_bot
+images\wsc2017_tp09_color;images\wsc2017_tp09_color
+images\wsc2017_tp09_color_2x;images\wsc2017_tp09_color_2x
+images\wsc2017_tp09_color_4x;images\wsc2017_tp09_color_4x
+raw\aboutassets;raw\AboutAssets
